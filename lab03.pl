@@ -9,7 +9,7 @@ my @names;
 my @scores;
 
 open($fh2,">","outfile.csv") or die "Nie udalo się stworzyc pliku\n";
-print $fh2 "IMIĘ,\t SUMA\n";
+print $fh2 "NAME,\t SCORE\n";
 
 foreach $line (@strings) {
 	if($line =~ /headerrow/)
