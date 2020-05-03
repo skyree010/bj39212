@@ -20,8 +20,6 @@ foreach $line (@strings) {
 	}
 for($i=0;$i<scalar @names;$i++)
 	{
-		print @names[$i];
-		print @scores[$i];
 		print $fh2 "\"@names[$i]\", \"@scores[$i]\"\n";
 	}
 
